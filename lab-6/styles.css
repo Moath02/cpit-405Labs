@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  h2, h3 {
+    margin: 20px 0 10px;
+    font-weight: bold;
+  }
+  
+  .counter {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  button span {
+    font-size: 1.5rem;
+  }
+  
+  .like-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .dislike-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .reset-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 80px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comments {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  button.submit-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  button.clear-button {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .comment-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  #comment-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #comment-list li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
